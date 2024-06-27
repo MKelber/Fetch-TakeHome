@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7964B4512C2D24C800B7CCD3 /* FetchTakeHomeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B4502C2D24C800B7CCD3 /* FetchTakeHomeAppApp.swift */; };
+		7964B4532C2D24C800B7CCD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B4522C2D24C800B7CCD3 /* ContentView.swift */; };
+		7964B4552C2D24C900B7CCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7964B4542C2D24C900B7CCD3 /* Assets.xcassets */; };
+		7964B4582C2D24CA00B7CCD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7964B4572C2D24CA00B7CCD3 /* Preview Assets.xcassets */; };
+		7964B4622C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B4612C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.swift */; };
+		7964B46C2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B46B2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.swift */; };
+		7964B46E2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B46D2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITestsLaunchTests.swift */; };
+		7964B47B2C2D252100B7CCD3 /* ApiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B47A2C2D252100B7CCD3 /* ApiModels.swift */; };
+		7964B47D2C2D254B00B7CCD3 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B47C2C2D254B00B7CCD3 /* MealListView.swift */; };
+		7964B47F2C2D257200B7CCD3 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964B47E2C2D257200B7CCD3 /* MealDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7964B45E2C2D24CA00B7CCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7964B4452C2D24C800B7CCD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7964B44C2C2D24C800B7CCD3;
+			remoteInfo = FetchTakeHomeApp;
+		};
+		7964B4682C2D24CA00B7CCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7964B4452C2D24C800B7CCD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7964B44C2C2D24C800B7CCD3;
+			remoteInfo = FetchTakeHomeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7964B44D2C2D24C800B7CCD3 /* FetchTakeHomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchTakeHomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7964B4502C2D24C800B7CCD3 /* FetchTakeHomeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTakeHomeAppApp.swift; sourceTree = "<group>"; };
+		7964B4522C2D24C800B7CCD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7964B4542C2D24C900B7CCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7964B4572C2D24CA00B7CCD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7964B45D2C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7964B4612C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTakeHomeAppTests.swift; sourceTree = "<group>"; };
+		7964B4672C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7964B46B2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTakeHomeAppUITests.swift; sourceTree = "<group>"; };
+		7964B46D2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTakeHomeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7964B47A2C2D252100B7CCD3 /* ApiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModels.swift; sourceTree = "<group>"; };
+		7964B47C2C2D254B00B7CCD3 /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		7964B47E2C2D257200B7CCD3 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7964B44A2C2D24C800B7CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7964B45A2C2D24CA00B7CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7964B4642C2D24CA00B7CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7964B4442C2D24C800B7CCD3 = {
+			isa = PBXGroup;
+			children = (
+				7964B44F2C2D24C800B7CCD3 /* FetchTakeHomeApp */,
+				7964B4602C2D24CA00B7CCD3 /* FetchTakeHomeAppTests */,
+				7964B46A2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests */,
+				7964B44E2C2D24C800B7CCD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7964B44E2C2D24C800B7CCD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7964B44D2C2D24C800B7CCD3 /* FetchTakeHomeApp.app */,
+				7964B45D2C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.xctest */,
+				7964B4672C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7964B44F2C2D24C800B7CCD3 /* FetchTakeHomeApp */ = {
+			isa = PBXGroup;
+			children = (
+				7964B4502C2D24C800B7CCD3 /* FetchTakeHomeAppApp.swift */,
+				7964B47A2C2D252100B7CCD3 /* ApiModels.swift */,
+				7964B47C2C2D254B00B7CCD3 /* MealListView.swift */,
+				7964B47E2C2D257200B7CCD3 /* MealDetailView.swift */,
+				7964B4522C2D24C800B7CCD3 /* ContentView.swift */,
+				7964B4542C2D24C900B7CCD3 /* Assets.xcassets */,
+				7964B4562C2D24CA00B7CCD3 /* Preview Content */,
+			);
+			path = FetchTakeHomeApp;
+			sourceTree = "<group>";
+		};
+		7964B4562C2D24CA00B7CCD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7964B4572C2D24CA00B7CCD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7964B4602C2D24CA00B7CCD3 /* FetchTakeHomeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7964B4612C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.swift */,
+			);
+			path = FetchTakeHomeAppTests;
+			sourceTree = "<group>";
+		};
+		7964B46A2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7964B46B2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.swift */,
+				7964B46D2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITestsLaunchTests.swift */,
+			);
+			path = FetchTakeHomeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7964B44C2C2D24C800B7CCD3 /* FetchTakeHomeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7964B4712C2D24CA00B7CCD3 /* Build configuration list for PBXNativeTarget "FetchTakeHomeApp" */;
+			buildPhases = (
+				7964B4492C2D24C800B7CCD3 /* Sources */,
+				7964B44A2C2D24C800B7CCD3 /* Frameworks */,
+				7964B44B2C2D24C800B7CCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FetchTakeHomeApp;
+			productName = FetchTakeHomeApp;
+			productReference = 7964B44D2C2D24C800B7CCD3 /* FetchTakeHomeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7964B45C2C2D24CA00B7CCD3 /* FetchTakeHomeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7964B4742C2D24CA00B7CCD3 /* Build configuration list for PBXNativeTarget "FetchTakeHomeAppTests" */;
+			buildPhases = (
+				7964B4592C2D24CA00B7CCD3 /* Sources */,
+				7964B45A2C2D24CA00B7CCD3 /* Frameworks */,
+				7964B45B2C2D24CA00B7CCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7964B45F2C2D24CA00B7CCD3 /* PBXTargetDependency */,
+			);
+			name = FetchTakeHomeAppTests;
+			productName = FetchTakeHomeAppTests;
+			productReference = 7964B45D2C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7964B4662C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7964B4772C2D24CA00B7CCD3 /* Build configuration list for PBXNativeTarget "FetchTakeHomeAppUITests" */;
+			buildPhases = (
+				7964B4632C2D24CA00B7CCD3 /* Sources */,
+				7964B4642C2D24CA00B7CCD3 /* Frameworks */,
+				7964B4652C2D24CA00B7CCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7964B4692C2D24CA00B7CCD3 /* PBXTargetDependency */,
+			);
+			name = FetchTakeHomeAppUITests;
+			productName = FetchTakeHomeAppUITests;
+			productReference = 7964B4672C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7964B4452C2D24C800B7CCD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7964B44C2C2D24C800B7CCD3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7964B45C2C2D24CA00B7CCD3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7964B44C2C2D24C800B7CCD3;
+					};
+					7964B4662C2D24CA00B7CCD3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7964B44C2C2D24C800B7CCD3;
+					};
+				};
+			};
+			buildConfigurationList = 7964B4482C2D24C800B7CCD3 /* Build configuration list for PBXProject "FetchTakeHomeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7964B4442C2D24C800B7CCD3;
+			productRefGroup = 7964B44E2C2D24C800B7CCD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7964B44C2C2D24C800B7CCD3 /* FetchTakeHomeApp */,
+				7964B45C2C2D24CA00B7CCD3 /* FetchTakeHomeAppTests */,
+				7964B4662C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7964B44B2C2D24C800B7CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7964B4582C2D24CA00B7CCD3 /* Preview Assets.xcassets in Resources */,
+				7964B4552C2D24C900B7CCD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7964B45B2C2D24CA00B7CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7964B4652C2D24CA00B7CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7964B4492C2D24C800B7CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7964B47B2C2D252100B7CCD3 /* ApiModels.swift in Sources */,
+				7964B4532C2D24C800B7CCD3 /* ContentView.swift in Sources */,
+				7964B4512C2D24C800B7CCD3 /* FetchTakeHomeAppApp.swift in Sources */,
+				7964B47F2C2D257200B7CCD3 /* MealDetailView.swift in Sources */,
+				7964B47D2C2D254B00B7CCD3 /* MealListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7964B4592C2D24CA00B7CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7964B4622C2D24CA00B7CCD3 /* FetchTakeHomeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7964B4632C2D24CA00B7CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7964B46C2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITests.swift in Sources */,
+				7964B46E2C2D24CA00B7CCD3 /* FetchTakeHomeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7964B45F2C2D24CA00B7CCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7964B44C2C2D24C800B7CCD3 /* FetchTakeHomeApp */;
+			targetProxy = 7964B45E2C2D24CA00B7CCD3 /* PBXContainerItemProxy */;
+		};
+		7964B4692C2D24CA00B7CCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7964B44C2C2D24C800B7CCD3 /* FetchTakeHomeApp */;
+			targetProxy = 7964B4682C2D24CA00B7CCD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7964B46F2C2D24CA00B7CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7964B4702C2D24CA00B7CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7964B4722C2D24CA00B7CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchTakeHomeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D52K842AT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MasonKelber.FetchTakeHomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7964B4732C2D24CA00B7CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchTakeHomeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D52K842AT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MasonKelber.FetchTakeHomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7964B4752C2D24CA00B7CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D52K842AT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MasonKelber.FetchTakeHomeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchTakeHomeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchTakeHomeApp";
+			};
+			name = Debug;
+		};
+		7964B4762C2D24CA00B7CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D52K842AT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MasonKelber.FetchTakeHomeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchTakeHomeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchTakeHomeApp";
+			};
+			name = Release;
+		};
+		7964B4782C2D24CA00B7CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D52K842AT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MasonKelber.FetchTakeHomeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchTakeHomeApp;
+			};
+			name = Debug;
+		};
+		7964B4792C2D24CA00B7CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D52K842AT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MasonKelber.FetchTakeHomeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchTakeHomeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7964B4482C2D24C800B7CCD3 /* Build configuration list for PBXProject "FetchTakeHomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7964B46F2C2D24CA00B7CCD3 /* Debug */,
+				7964B4702C2D24CA00B7CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7964B4712C2D24CA00B7CCD3 /* Build configuration list for PBXNativeTarget "FetchTakeHomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7964B4722C2D24CA00B7CCD3 /* Debug */,
+				7964B4732C2D24CA00B7CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7964B4742C2D24CA00B7CCD3 /* Build configuration list for PBXNativeTarget "FetchTakeHomeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7964B4752C2D24CA00B7CCD3 /* Debug */,
+				7964B4762C2D24CA00B7CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7964B4772C2D24CA00B7CCD3 /* Build configuration list for PBXNativeTarget "FetchTakeHomeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7964B4782C2D24CA00B7CCD3 /* Debug */,
+				7964B4792C2D24CA00B7CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7964B4452C2D24C800B7CCD3 /* Project object */;
+}
